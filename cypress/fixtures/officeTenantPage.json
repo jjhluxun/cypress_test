@@ -1,0 +1,5 @@
+{
+  "detailText": "tr:first-child> td:last-child >span > a[href]",
+  "officeInfotitleText": ".ant-breadcrumb>span:last-child>.ant-breadcrumb-link",
+  "createBtn": "button[aria-label*='create']"
+}

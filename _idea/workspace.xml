@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4a07c535-8659-4020-ae18-6e057dc670bb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1u4EatSxsKECZtrisplBOSNORaz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cypress/page" />
+      <recent name="$PROJECT_DIR$/cypress/fixtures" />
+      <recent name="$PROJECT_DIR$/cypress/fixtures/DynamicData" />
+      <recent name="$PROJECT_DIR$/cypress/testCase/E2ETest" />
+      <recent name="$PROJECT_DIR$/cypress/testCase" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a07c535-8659-4020-ae18-6e057dc670bb" name="Default Changelist" comment="" />
+      <created>1623916527815</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623916527815</updated>
+      <workItem from="1623916530702" duration="36256000" />
+      <workItem from="1624413858315" duration="30009000" />
+      <workItem from="1624848197148" duration="31759000" />
+      <workItem from="1625025099077" duration="19629000" />
+      <workItem from="1625208800746" duration="8715000" />
+      <workItem from="1625218424694" duration="1090000" />
+      <workItem from="1627465664872" duration="3198000" />
+      <workItem from="1627529415054" duration="572000" />
+      <workItem from="1635385496149" duration="1916000" />
+      <workItem from="1635387632752" duration="37000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2056" y="19" width="1556" height="817" key="DiffContextDialog" timestamp="1635386833159">
+      <screen x="1792" y="-157" width="1920" height="1177" />
+    </state>
+    <state x="2056" y="19" width="1556" height="817" key="DiffContextDialog/1792.-157.1920.1177/0.23.1792.1022@1792.-157.1920.1177" timestamp="1635386833159" />
+    <state x="2499" y="144" width="670" height="676" key="search.everywhere.popup" timestamp="1635387620982">
+      <screen x="1792" y="-157" width="1920" height="1177" />
+    </state>
+    <state x="2499" y="144" width="670" height="676" key="search.everywhere.popup/1792.-157.1920.1177/0.23.1792.1022@1792.-157.1920.1177" timestamp="1635387620982" />
+  </component>
+</project>

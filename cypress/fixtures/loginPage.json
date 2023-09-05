@@ -1,0 +1,6 @@
+{
+  "userName": "#userName",
+  "passWord": "#password",
+  "Submit": "button",
+  "logout": "span[aria-label='logout']"
+}

@@ -1,0 +1,125 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-07-02T08:00:04.541Z",
+    "end": "2021-07-02T08:00:13.190Z",
+    "duration": 8649,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "5b0732e0-2815-4fc1-9447-830450bd4818",
+      "title": "",
+      "fullFile": "cypress/testCase/E2ETest/companyPage.spec.js",
+      "file": "cypress/testCase/E2ETest/companyPage.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d14af158-7b06-45f2-ba4d-cebaff92c818",
+          "title": "office-tenant module",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "office list page",
+              "fullTitle": "office-tenant module office list page",
+              "timedOut": null,
+              "duration": 7187,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "companyPage.officeList();",
+              "err": {},
+              "uuid": "ae9f5b4c-d255-478c-a265-91020c6835c2",
+              "parentUUID": "d14af158-7b06-45f2-ba4d-cebaff92c818",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "office creat new",
+              "fullTitle": "office-tenant module office creat new",
+              "timedOut": null,
+              "duration": 1216,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "companyPage.officeCreate();",
+              "err": {},
+              "uuid": "6af336a4-20be-4923-b6fb-261c39217613",
+              "parentUUID": "d14af158-7b06-45f2-ba4d-cebaff92c818",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ae9f5b4c-d255-478c-a265-91020c6835c2",
+            "6af336a4-20be-4923-b6fb-261c39217613"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8403,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/json",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

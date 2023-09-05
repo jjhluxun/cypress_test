@@ -1,0 +1,9 @@
+{
+  "baseUrl": "xxxx",
+  "env": {
+    "admin": {
+      "username": "*****",
+      "password": "*******"
+    }
+  }
+}

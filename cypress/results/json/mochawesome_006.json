@@ -1,0 +1,145 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 1,
+    "failures": -1,
+    "start": "2021-07-02T08:00:31.681Z",
+    "end": "2021-07-02T08:00:35.040Z",
+    "duration": 3359,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 33.33333333333333,
+    "other": 1,
+    "hasOther": true,
+    "skipped": 1,
+    "hasSkipped": true
+  },
+  "results": [
+    {
+      "uuid": "8219d6af-912d-44a6-a21d-fd3eb55df3e1",
+      "title": "",
+      "fullFile": "cypress/testCase/E2ETest/loginFixture.spec.js",
+      "file": "cypress/testCase/E2ETest/loginFixture.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "a290efd2-c008-4daf-936f-d60b0153887c",
+          "title": "Different crm user has relative permission",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Super admin can control all",
+              "fullTitle": "Different crm user has relative permission Super admin can control all",
+              "timedOut": null,
+              "duration": 3012,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('/');\nconst {\n  userName,\n  passWord,\n  Submit\n} = loginPage;\ncy.get(userName).type(crmUsers.admin.user);\ncy.get(passWord).type(crmUsers.admin.password);\ncy.get(Submit).click();\ncy.url().should('include', '/office-tenant');",
+              "err": {},
+              "uuid": "ba4522b2-6742-4dfd-a6fc-22d4140bcab1",
+              "parentUUID": "a290efd2-c008-4daf-936f-d60b0153887c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Space admin only can operate space ",
+              "fullTitle": "Different crm user has relative permission Space admin only can operate space ",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "ce9eb520-18f8-4eb2-9ada-3d9d5c2f5b30",
+              "parentUUID": "a290efd2-c008-4daf-936f-d60b0153887c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Super admin can see all tabs",
+              "fullTitle": "Different crm user has relative permission Super admin can see all tabs",
+              "timedOut": null,
+              "duration": 175,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('公寓管理').should('be.visible');",
+              "err": {},
+              "uuid": "b36e64b4-ffa1-4b44-aa3d-3e3722677282",
+              "parentUUID": "a290efd2-c008-4daf-936f-d60b0153887c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ba4522b2-6742-4dfd-a6fc-22d4140bcab1",
+            "b36e64b4-ffa1-4b44-aa3d-3e3722677282"
+          ],
+          "failures": [],
+          "pending": [
+            "ce9eb520-18f8-4eb2-9ada-3d9d5c2f5b30"
+          ],
+          "skipped": [],
+          "duration": 3187,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/json",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

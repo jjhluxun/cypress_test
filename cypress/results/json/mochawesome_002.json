@@ -1,0 +1,125 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-07-02T07:56:23.596Z",
+    "end": "2021-07-02T07:56:24.040Z",
+    "duration": 444,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "38a344d4-f06b-43f5-acae-8178c573fbd7",
+      "title": "",
+      "fullFile": "cypress/testCase/APITest/residentAPI.spec.js",
+      "file": "cypress/testCase/APITest/residentAPI.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0bde0027-efe8-4126-b8f6-cc4378134ee5",
+          "title": "apartment",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "apartment list",
+              "fullTitle": "apartment apartment list",
+              "timedOut": null,
+              "duration": 348,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.request({\n  url: '/api/travel/v1/admin/apartments',\n  qs: {\n    page: 0,\n    size: 10\n  },\n  auth: {\n    bearer: TOKEN\n  }\n}).should(response => {\n  expect(response.status).to.eq(200);\n  expect(response.body.content[0]).to.have.property('id');\n  Cypress._.each(response.body.content, Content => {\n    expect(Content.position).to.not.be.null;\n  });\n  apartmentId = response.body.content[0].id;\n});",
+              "err": {},
+              "uuid": "f31fb79b-fbf3-4fc6-a4d9-80d824a1847f",
+              "parentUUID": "0bde0027-efe8-4126-b8f6-cc4378134ee5",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "apartment details",
+              "fullTitle": "apartment apartment details",
+              "timedOut": null,
+              "duration": 82,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.request({\n  url: `/api/travel/v1/admin/apartments/${apartmentId}`,\n  auth: {\n    bearer: TOKEN\n  }\n}).should(res => {\n  expect(res.status).to.eq(200);\n  expect(res.body.id).to.eq(`${apartmentId}`);\n});",
+              "err": {},
+              "uuid": "946877f0-c193-4e4b-8471-b1a7d8ca5a0d",
+              "parentUUID": "0bde0027-efe8-4126-b8f6-cc4378134ee5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f31fb79b-fbf3-4fc6-a4d9-80d824a1847f",
+            "946877f0-c193-4e4b-8471-b1a7d8ca5a0d"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 430,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/json",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

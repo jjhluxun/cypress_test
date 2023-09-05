@@ -1,0 +1,30 @@
+{
+  "name": "automation-test",
+  "scripts": {
+    "cy:qa": "cypress run --env configFile=qa --browser edge ",
+    "cy:prod": "cypress run --env configFile=prod --browser edge",
+    "delete:reports": "rm -r cypress/results/* ",
+    "combine:reports": "npx mochawesome-merge cypress/results/json/*.json > cypress/results/mochawesome.json",
+    "postreport": "npx marge cypress/results/mochawesome.json -o cypress/results",
+    "cy:qa:api": "cypress run --env configFile=qa"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "latest",
+    "cypress-localstorage-commands": "~1.4.5",
+    "listr2": "3.10.0",
+    "cypress-wait-until": "~1.7.1"
+  },
+  "devDependencies": {
+    "cypress": "^7.5.0",
+    "mocha": "~9.0.0",
+    "chai": "~4.3.4",
+    "mochawesome": "~6.2.2",
+    "cypress-multi-reporters": "~1.5.0",
+    "mochawesome-merge": "~4.2.0",
+    "mochawesome-report-generator": "~5.2.0"
+  },
+  "description": ""
+}

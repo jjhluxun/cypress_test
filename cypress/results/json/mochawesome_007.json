@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-07-02T08:00:41.113Z",
+    "end": "2021-07-02T08:00:48.329Z",
+    "duration": 7216,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "45841e73-8b76-41ad-acf9-fb85cbe9634b",
+      "title": "",
+      "fullFile": "cypress/testCase/E2ETest/spacePage.spec.js",
+      "file": "cypress/testCase/E2ETest/spacePage.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "60026879-153c-4c12-b151-748fa3c2f80b",
+          "title": "space module",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "create business-meeting-room",
+              "fullTitle": "space module create business-meeting-room",
+              "timedOut": null,
+              "duration": 7186,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_spaceOperation.default.creatRoom();",
+              "err": {},
+              "uuid": "a06190bd-c1d0-46fe-a0aa-aeeeff5bbeb6",
+              "parentUUID": "60026879-153c-4c12-b151-748fa3c2f80b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a06190bd-c1d0-46fe-a0aa-aeeeff5bbeb6"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 7186,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/json",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}
